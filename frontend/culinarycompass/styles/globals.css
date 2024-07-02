@@ -1,0 +1,57 @@
+/* styles/globals.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* @import './base.css'; */
+@import 'tailwindcss/utilities';
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #e7e0ee; /* Updated background color */
+}
+
+
+.button:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+
+  /* transform: scale(1.05);
+  transition: transform 0.5s ease-in-out; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title, .description, .button {
+  color: rgb(62, 2, 77);
+  font-size: 4rem; /* Larger font size for visibility */
+}
+
+
+
+.description {
+  max-width: 600px; /* Ensure the text is not too wide */
+  font-size: 1.5rem; /* Adjusting for readability */
+  text-align: center;
+}
+
+.button {
+  font-family: 'Times New Roman', sans-serif; /* Override for buttons to maintain readability */
+  font-size: 2rem; /* Adjust button font size for balance */
+  background-color: #fefefe; /* Soft, food-related color */
+  color: rgb(62, 2, 77);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 5px;
+}
+.logo {
+    max-width: 20%; /* Ensure it's responsive */
+    height: 20%; /* Maintain aspect ratio */
+    margin: 20px 0; /* Add some space around the logo */
+  }
